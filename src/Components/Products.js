@@ -5,7 +5,7 @@ import Cards from "./Cards";
 const Products = () => {
   return (
     <>
-      <Title>Our Products</Title>
+      <Title>Movies Hall</Title>
 
       <ProductsWrapper>
         {shopData.map((data, index) => (
@@ -27,6 +27,6 @@ const Title = styled.p`
 const ProductsWrapper = styled.div`
   width: fit-content;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(3, auto);
   gap: 20px;
 `;

@@ -11,7 +11,7 @@ const App = () => {
     <ShopProvider>
       <Wrapper>
         <TitleWrapper>
-          <h1>Welcome to DC Clothing Shop</h1>
+          <h1>Welcome to DC Movies</h1>
         </TitleWrapper>
         <LinksWrapper>
           <Link to="/">Home</Link>
